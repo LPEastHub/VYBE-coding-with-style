@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in to VibeCoding Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="gh-body">
+
+    <div class="gh-login-wrapper">
+        <div class="text-center mb-4">
+            <a href="index.html" class="text-decoration-none">
+                <h1 class="gh-logo">✨</h1>
+            </a>
+            <h2 class="gh-header-text">Sign in to VibeCoding</h2>
+        </div>
+
+        <div class="gh-login-box">
+            <form id="loginForm">
+                <div class="mb-3">
+                    <label for="username" class="gh-label">Username or email address</label>
+                    <input type="text" id="username" class="gh-input" required>
+                </div>
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between">
+                        <label for="password" class="gh-label">Password</label>
+                        <a href="#" class="gh-link text-decoration-none">Forgot password?</a>
+                    </div>
+                    <input type="password" id="password" class="gh-input" required>
+                </div>
+                <button type="submit" class="gh-btn-submit">Sign in</button>
+            </form>
+        </div>
+
+        <div class="gh-register-box text-center mt-3">
+            New to VibeCoding? <a href="#" class="gh-link text-decoration-none">Create an account</a>.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
